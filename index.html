@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>Mentalista</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Mentalista</h1>
+        <p class="header__subtitle">Tente adivinhar o número que estou pensando!
+            <br>
+            Digite um número de 0 a 10 (você tem 3 tentativas)
+        </p>
+    </header>
+
+    <section>
+        <input type="number" id="guessNumber">
+        <button type="submit" onclick="GuessNumber()">Adivinhar</button>
+    </section>
+    <section>
+        <h2 class="result" id="result"></h2>
+    </section>
+
+    <script src="./scripts/guessNumber.js"></script>
+</body>
+</html>
