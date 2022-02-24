@@ -1,9 +1,9 @@
 body{
     font-family: "Roboto Mono", monospace;
-    min-height: 600px;
+    min-height: 100vh;
     background-image: url("https://i.postimg.cc/tJMZ4qF8/mentalista-1.png");
     background-color: #b366ff;
-    background-size: 90vh;
+    background-size: auto;
     background-position: right bottom;
     background-repeat: no-repeat;
 }
